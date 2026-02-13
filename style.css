@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+.flight_sim_container {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.flight_sim_canvas {
+	display: block;
+}
+.paused {
+	position: absolute;
+	inset: 0;
+	color: #fff;
+	font-size: 80px;
+	text-align: center;
+	background-color: rgb(0,0,0,0.53);
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.paused--visible {
+	display: flex;
+}
+.unpause_instructions {
+	font-size: 30px;
+}
